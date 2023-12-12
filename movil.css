@@ -1,0 +1,324 @@
+:root
+{
+  --verde-oscuro: #024731;
+  --verde-claro: #93CE20;
+}
+@media screen and (max-width:430px)
+{
+    nav
+    {
+      padding: 1px 0px;
+    }
+    .arriba
+    {
+        display: none;
+    }
+    .abajo
+    {
+      flex-direction: column;
+      justify-content: center;
+      gap: 10px;
+      position: relative;
+    }
+    .menu_izquierda
+    {
+      width: 90%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .botonSandwichMenu
+    {
+      color: white;
+      font-size: 35px;
+      cursor: pointer;
+      display: flex;
+    }
+    .logoytexto
+    {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    nav ul
+    {
+      background-color: white;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: flex-end;
+      flex-wrap: wrap;
+      width:100%;
+      padding:8px 15px;
+      position: absolute;
+      top: 120%;
+      left: -110%;
+      z-index: 25;
+      transition: all .4s;
+      overflow: hidden;
+    }
+    nav ul.abrirmenu
+    {
+      left: 0;
+    }
+    nav ul li a
+    {
+      display: block;
+      padding: 15px 0px;
+      color: #333;
+      text-align: left;
+    }
+    nav ul li a:hover
+    {
+      color: #93CE20;
+    }
+    nav ul li
+    {
+      width: 100%;
+    }
+    .elementosSoloMovil
+    {
+        display: flex;
+    }
+    .parte1
+    {
+        display: flex;
+        cursor: pointer;
+        color: #333;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    /*Aqui se ajusta la altura de la imagen*/
+    .callbacks_container img
+    {
+        height:500px;
+    }
+    .callbacks_nav
+    {
+        position: absolute;
+        top: 90%;
+    }
+    .textoSlide
+    {
+        width: 400px;
+        gap: 30px;
+    }
+
+    .tituloprincipalSlide
+    {
+        font-size: 25px;
+    }
+    .titulosecundarioSlide
+    {
+        font-size: 15px;
+    }
+
+    .contenidosc3
+    {
+        width: 91%;
+        padding-right: 10px;
+    }
+
+    .filtroSeccion3
+    {
+        background-color: #024731;
+    }
+    .titulo1s3
+    {
+        font-size: 25px;
+    }
+    .titulo2s3
+    {
+        font-size: 28px;
+    }
+
+
+    .footerarriba
+    {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footerabajo
+    {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .contfootabajo
+    {
+        width: 90%;
+        height: 100%;
+    }
+    .footerfinal
+    {
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+    .finalder
+    {
+        order: 1;
+    }
+    .finaliz
+    {
+        order: 2;
+    }
+    .subirprincipio
+    {
+        display: none;
+    }
+    .secctionServices1
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    .selecionopciones
+    {
+        order: 2;
+
+    }
+    .contenidoopciones
+    {
+        order: 1;
+    }
+    .opcion
+    {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .nombrepla
+    {
+        width: 100%;
+        font-size: 15px;
+        font-weight: 500;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 40px;
+    }
+    .nombrepla2
+    {
+        width: 100%;
+        font-size: 15px;
+        font-weight: 500;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 40px;
+    }
+    .SectionAbout1
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    .izquiWe
+    {
+        order: 2;
+        width: 90%;
+        padding-top: 50px;
+
+    }
+    .dereWe
+    {
+        order: 1;
+    }
+    .contsectabout2
+    {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .SectionAbout3
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .izqabut3
+    {
+        width: 90%;
+    }
+    .derabut3
+    {
+        width: 90%;
+    }
+
+    .banner #info,  .banner2 #info, .banner3 #info,.banner4 #info, .banner5 #info, .banner6 #info, .banner7 #info, .banner8 #info, .banner9 #info
+    {
+        opacity: 1;
+    }
+    .tit2secproj2
+    {
+        font-size: 30px;
+    }
+
+    .botonMake
+    {
+        padding: 15px 35px;
+    }
+    #inf
+    {
+
+        top:0%;
+    }
+
+    .contegal figure
+    {
+        filter: blur(0px);
+    }
+    .contegal figure:hover
+    {
+        box-shadow: 0px 0px 0px #919191;
+        filter: blur(0px);
+    }
+    .blogizq
+    {
+        width: 90%;
+    }
+    .ariz1
+    {
+        padding-top: 100px;
+    }
+    .circulofecha
+    {
+        width: 70px;
+        height: 70px;
+        top: 5px;
+        left: calc(12% - 45px);
+    }
+    .strfec
+    {
+        font-size: 20px;
+    }
+    .fcirc
+    {
+        font-size: 13px;
+    }
+    .titul2blogl
+    {
+        font-size: 25px;
+    }
+
+    .bannerimg #infoimg, .bannerimg2 #infoimg2, .bannerimg3 #infoimg3, .bannerimg4 #infoimg4
+    {
+        height: 200px;
+        background-color: transparent;
+    }
+    .sectionblog1
+    {
+        align-items: center;
+        flex-direction: column;
+    }
+    .blogizq
+    {
+        width: 95%;
+    }
+    .blogder
+    {
+        width: 95%;
+    }
+    .blogder
+    {
+
+        border-left: 0px #c7c7c7 solid;
+    }
+
+}
